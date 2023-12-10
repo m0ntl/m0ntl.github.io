@@ -107,7 +107,7 @@
                     }
 
                     // Set wheelPower var used when spin button is clicked.
-                    wheelPower = 2;
+                    wheelPower = Math.floor(Math.random() * 2) + 1;
 
                     // Light up the spin button by changing it's source image and adding a clickable class to it.
                     document.getElementById('spin_button').src = "spin_on.png";
